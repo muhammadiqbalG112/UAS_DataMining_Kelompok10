@@ -1,0 +1,198 @@
+[
+    {
+        "antecedent_str": "AI_High + Job_Entry",
+        "consequent_str": "Risk_High",
+        "support_str": "3.08%",
+        "confidence_str": "93.47%",
+        "lift_str": "2.750"
+    },
+    {
+        "antecedent_str": "Ind_Manufacturing + AI_Medium + Job_Entry",
+        "consequent_str": "Risk_High",
+        "support_str": "2.10%",
+        "confidence_str": "92.29%",
+        "lift_str": "2.716"
+    },
+    {
+        "antecedent_str": "Job_Senior + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "6.91%",
+        "confidence_str": "86.92%",
+        "lift_str": "2.633"
+    },
+    {
+        "antecedent_str": "Ind_Education + Job_Mid + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "2.29%",
+        "confidence_str": "85.61%",
+        "lift_str": "2.593"
+    },
+    {
+        "antecedent_str": "Ind_Healthcare + Job_Mid + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "2.19%",
+        "confidence_str": "82.61%",
+        "lift_str": "2.503"
+    },
+    {
+        "antecedent_str": "Ind_Education + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "4.91%",
+        "confidence_str": "78.56%",
+        "lift_str": "2.380"
+    },
+    {
+        "antecedent_str": "AI_High",
+        "consequent_str": "Risk_High",
+        "support_str": "5.71%",
+        "confidence_str": "80.78%",
+        "lift_str": "2.377"
+    },
+    {
+        "antecedent_str": "AI_High + Job_Mid",
+        "consequent_str": "Risk_High",
+        "support_str": "2.23%",
+        "confidence_str": "78.90%",
+        "lift_str": "2.322"
+    },
+    {
+        "antecedent_str": "Ind_Healthcare + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "5.17%",
+        "confidence_str": "76.22%",
+        "lift_str": "2.309"
+    },
+    {
+        "antecedent_str": "Ind_Manufacturing + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "3.96%",
+        "confidence_str": "78.21%",
+        "lift_str": "2.301"
+    },
+    {
+        "antecedent_str": "AI_Medium + Job_Entry",
+        "consequent_str": "Risk_High",
+        "support_str": "13.44%",
+        "confidence_str": "74.17%",
+        "lift_str": "2.182"
+    },
+    {
+        "antecedent_str": "Ind_Logistics + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "3.55%",
+        "confidence_str": "70.83%",
+        "lift_str": "2.084"
+    },
+    {
+        "antecedent_str": "Ind_Retail + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "3.34%",
+        "confidence_str": "69.95%",
+        "lift_str": "2.058"
+    },
+    {
+        "antecedent_str": "Ind_IT + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "4.17%",
+        "confidence_str": "64.68%",
+        "lift_str": "1.959"
+    },
+    {
+        "antecedent_str": "Ind_Healthcare + Job_Entry + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "2.04%",
+        "confidence_str": "64.45%",
+        "lift_str": "1.953"
+    },
+    {
+        "antecedent_str": "Ind_Finance + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "3.35%",
+        "confidence_str": "64.73%",
+        "lift_str": "1.905"
+    },
+    {
+        "antecedent_str": "Job_Mid + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "12.87%",
+        "confidence_str": "61.07%",
+        "lift_str": "1.850"
+    },
+    {
+        "antecedent_str": "Ind_Telecom + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "3.14%",
+        "confidence_str": "62.80%",
+        "lift_str": "1.848"
+    },
+    {
+        "antecedent_str": "Job_Senior",
+        "consequent_str": "Risk_Low",
+        "support_str": "8.79%",
+        "confidence_str": "57.72%",
+        "lift_str": "1.749"
+    },
+    {
+        "antecedent_str": "Ind_Manufacturing + Job_Entry",
+        "consequent_str": "Risk_High",
+        "support_str": "3.19%",
+        "confidence_str": "58.60%",
+        "lift_str": "1.724"
+    },
+    {
+        "antecedent_str": "Ind_Telecom + AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "3.98%",
+        "confidence_str": "56.54%",
+        "lift_str": "1.713"
+    },
+    {
+        "antecedent_str": "AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "23.40%",
+        "confidence_str": "58.17%",
+        "lift_str": "1.712"
+    },
+    {
+        "antecedent_str": "AI_Low",
+        "consequent_str": "Risk_Low",
+        "support_str": "29.59%",
+        "confidence_str": "56.16%",
+        "lift_str": "1.701"
+    },
+    {
+        "antecedent_str": "Job_Mid + AI_Medium",
+        "consequent_str": "Risk_High",
+        "support_str": "8.69%",
+        "confidence_str": "54.95%",
+        "lift_str": "1.617"
+    },
+    {
+        "antecedent_str": "Ind_Education + Job_Mid",
+        "consequent_str": "Risk_Low",
+        "support_str": "2.66%",
+        "confidence_str": "52.16%",
+        "lift_str": "1.580"
+    },
+    {
+        "antecedent_str": "Ind_Logistics + Job_Entry",
+        "consequent_str": "Risk_High",
+        "support_str": "2.94%",
+        "confidence_str": "52.97%",
+        "lift_str": "1.559"
+    },
+    {
+        "antecedent_str": "Job_Senior + AI_Medium",
+        "consequent_str": "Risk_Medium",
+        "support_str": "3.21%",
+        "confidence_str": "50.99%",
+        "lift_str": "1.545"
+    },
+    {
+        "antecedent_str": "Ind_Healthcare + Job_Mid",
+        "consequent_str": "Risk_Low",
+        "support_str": "2.49%",
+        "confidence_str": "50.20%",
+        "lift_str": "1.521"
+    }
+]

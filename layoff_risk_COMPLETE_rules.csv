@@ -1,0 +1,29 @@
+antecedent_str,consequent_str,support_str,confidence_str,lift_str
+AI_High + Job_Entry,Risk_High,3.08%,93.47%,2.750
+Ind_Manufacturing + AI_Medium + Job_Entry,Risk_High,2.10%,92.29%,2.716
+Job_Senior + AI_Low,Risk_Low,6.91%,86.92%,2.633
+Ind_Education + Job_Mid + AI_Low,Risk_Low,2.29%,85.61%,2.593
+Ind_Healthcare + Job_Mid + AI_Low,Risk_Low,2.19%,82.61%,2.503
+Ind_Education + AI_Low,Risk_Low,4.91%,78.56%,2.380
+AI_High,Risk_High,5.71%,80.78%,2.377
+AI_High + Job_Mid,Risk_High,2.23%,78.90%,2.322
+Ind_Healthcare + AI_Low,Risk_Low,5.17%,76.22%,2.309
+Ind_Manufacturing + AI_Medium,Risk_High,3.96%,78.21%,2.301
+AI_Medium + Job_Entry,Risk_High,13.44%,74.17%,2.182
+Ind_Logistics + AI_Medium,Risk_High,3.55%,70.83%,2.084
+Ind_Retail + AI_Medium,Risk_High,3.34%,69.95%,2.058
+Ind_IT + AI_Low,Risk_Low,4.17%,64.68%,1.959
+Ind_Healthcare + Job_Entry + AI_Low,Risk_Low,2.04%,64.45%,1.953
+Ind_Finance + AI_Medium,Risk_High,3.35%,64.73%,1.905
+Job_Mid + AI_Low,Risk_Low,12.87%,61.07%,1.850
+Ind_Telecom + AI_Medium,Risk_High,3.14%,62.80%,1.848
+Job_Senior,Risk_Low,8.79%,57.72%,1.749
+Ind_Manufacturing + Job_Entry,Risk_High,3.19%,58.60%,1.724
+Ind_Telecom + AI_Low,Risk_Low,3.98%,56.54%,1.713
+AI_Medium,Risk_High,23.40%,58.17%,1.712
+AI_Low,Risk_Low,29.59%,56.16%,1.701
+Job_Mid + AI_Medium,Risk_High,8.69%,54.95%,1.617
+Ind_Education + Job_Mid,Risk_Low,2.66%,52.16%,1.580
+Ind_Logistics + Job_Entry,Risk_High,2.94%,52.97%,1.559
+Job_Senior + AI_Medium,Risk_Medium,3.21%,50.99%,1.545
+Ind_Healthcare + Job_Mid,Risk_Low,2.49%,50.20%,1.521
