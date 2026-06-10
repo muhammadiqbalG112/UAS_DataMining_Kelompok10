@@ -47,9 +47,9 @@ elif menu == "2. Dataset Overview":
     st.title("📊 Dataset Overview")
     st.write("Menampilkan sampel data historis korporasi yang digunakan sebagai basis pelatihan kecerdasan buatan.")
     if not df.empty:
-        st.dataframe(df.head(15), use_container_width=True)
+        st.dataframe(df.head(15), use_container_width=stretch)
         st.write("**Statistik Deskriptif:**")
-        st.dataframe(df.describe(), use_container_width=True)
+        st.dataframe(df.describe(), use_container_width=stretch)
         st.write("**Distribusi Data:**")
         st.bar_chart(df['Layoff_Risk'].value_counts())
 
@@ -119,7 +119,7 @@ elif menu == "4. Visualization":
                 rules_df['lift_val'] = pd.to_numeric(rules_df['lift_str'], errors='coerce')
                 rules_df = rules_df.sort_values(by='lift_val', ascending=False).drop(columns=['lift_val']).reset_index(drop=True)
             
-            st.dataframe(rules_df, use_container_width=True)
+            st.dataframe(rules_df, use_container_width=stretch)
         else:
             st.warning("File CSV aturan asosiasi kosong.")
     except Exception as e:
@@ -137,7 +137,7 @@ elif menu == "4. Visualization":
         img_network_path = os.path.join(BASE_DIR, 'network_web.png') # Sesuaikan nama file gambar Anda!
         if os.path.exists(img_network_path):
             img_net = Image.open(img_network_path)
-            st.image(img_net, caption="Pemusatan Risiko Tinggi Berdasarkan Algoritma FP-Growth", use_container_width=True)
+            st.image(img_net, caption="Pemusatan Risiko Tinggi Berdasarkan Algoritma FP-Growth", use_container_width=stretch)
         else:
             st.info("💡 Simpan gambar Anda dengan nama 'network_web.png' di folder proyek untuk menampilkannya di sini.")
 
@@ -147,7 +147,7 @@ elif menu == "4. Visualization":
         img_scatter_path = os.path.join(BASE_DIR, 'scatter_plot.png') # Sesuaikan nama file gambar Anda!
         if os.path.exists(img_scatter_path):
             img_scat = Image.open(img_scatter_path)
-            st.image(img_scat, caption="Pemetaan Metrik Support, Confidence, dan Lift Ratio", use_container_width=True)
+            st.image(img_scat, caption="Pemetaan Metrik Support, Confidence, dan Lift Ratio", use_container_width=stretch)
         else:
             st.info("💡 Simpan gambar Anda dengan nama 'scatter_plot.png' di folder proyek untuk menampilkannya di sini.")
 
@@ -157,7 +157,7 @@ elif menu == "4. Visualization":
         img_matrix_path = os.path.join(BASE_DIR, 'confusion_matrix.png') # Sesuaikan nama file gambar Anda!
         if os.path.exists(img_matrix_path):
             img_mat = Image.open(img_matrix_path)
-            st.image(img_mat, caption="Sebaran Ketepatan Klasifikasi Aktual vs Prediksi", use_container_width=True)
+            st.image(img_mat, caption="Sebaran Ketepatan Klasifikasi Aktual vs Prediksi", use_container_width=stretch)
         else:
             st.info("💡 Simpan gambar Anda dengan nama 'confusion_matrix.png' di folder proyek untuk menampilkannya di sini.")
 
